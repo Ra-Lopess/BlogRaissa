@@ -1,259 +1,343 @@
 <!DOCTYPE html>
 <html lang="en">
-    <style>
-        .scratch
-{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;    
-}
-.slnova
-{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;    
-}
-head
-{
-    font-size: 80px;
-    color: rgb(240, 106, 173);
-}
-body 
-{
-    background-image: url("https://papeldeparededigital.com.br/media/catalog/product/cache/1/small_image/300x/17f82f742ffe127f42dca9de82fb58b1/p/p/ppdpo34.jpg");
-}
-  
-h1 
-{
-    color: rgb(177, 75, 81);
-    text-align: center;
-    font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-li, .apresent
-{
-    margin-top: 110px;
-}
-  
-p 
-{
-    font-family: Apple Chancery, cursive;
-    font-size: 17px;
-    font-weight: 500;
-}
-footer
-{
-    color: rgb(177, 75, 81);
-    text-align: center;
-    background-color: rgb(228, 222, 222);
-    padding: 10px;
+<style>
+    .scratch {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-}
-a
-{
-    color: rgb(177, 75, 81);
-    text-decoration: none;
+    .slnova {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-}
-.menu
-{
-    display: flex;
-    
-}
-.menu li
-{
-    list-style: none;
-    margin-left: 30px;
-    font-size: 20px;
-    padding: 10px;
-    margin-right: 20px;
-    font-family: OCR A Std, monospace;
-}
-.header
-{
-    display: flex;
-    justify-content: 
-    space-between;
-    padding: 20px;
-    font-size: 50px;
-    background-color: rgb(228, 222, 222);
-    font-family: OCR A Std, monospace;
+    head {
+        font-size: 80px;
+        color: rgb(240, 106, 173);
+    }
 
-    position: fixed;
-    top: 0px;
-    width: 100%;
-}
-body, ul, li, p
-{
-    margin: 0px;
-    padding: 0px;
-    font-size: 20px;
-    font-family: Apple Chancery, cursive;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-script
-{
-    scroll-behavior: smooth;
-}
-i
-{
-    color: rgb(177, 75, 81);
-    padding: 10px;
-}
-i, li
-{
-    justify-content: none;
-}
-.img
-{
-    float: left;
-    padding: 10px;
-    border: thin solid;
-    background-color: rgb(177, 75, 81);
-    margin: 0px  10px 0;
+    body {
+        background-image: url("https://papeldeparededigital.com.br/media/catalog/product/cache/1/small_image/300x/17f82f742ffe127f42dca9de82fb58b1/p/p/ppdpo34.jpg");
+    }
 
-}
-h2
-{
-    color: rgb(177, 75, 81);
-    text-align: center;
-    font-size: 25px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-    </style>
+    h1 {
+        color: rgb(177, 75, 81);
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    li,
+    .apresent {
+        margin-top: 110px;
+    }
+
+    p {
+        font-family: Apple Chancery, cursive;
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    footer {
+        color: rgb(177, 75, 81);
+        text-align: center;
+        background-color: rgb(228, 222, 222);
+        padding: 10px;
+
+    }
+
+    a {
+        color: rgb(177, 75, 81);
+        text-decoration: none;
+
+    }
+
+    .menu {
+        display: flex;
+
+    }
+
+    .menu li {
+        list-style: none;
+        margin-left: 30px;
+        font-size: 20px;
+        padding: 10px;
+        margin-right: 20px;
+        font-family: OCR A Std, monospace;
+    }
+
+    .header {
+        display: flex;
+        justify-content:
+            space-between;
+        padding: 20px;
+        font-size: 50px;
+        background-color: rgb(228, 222, 222);
+        font-family: OCR A Std, monospace;
+
+        position: fixed;
+        top: 0px;
+        width: 100%;
+    }
+
+    body,
+    ul,
+    li,
+    p {
+        margin: 0px;
+        padding: 0px;
+        font-size: 20px;
+        font-family: Apple Chancery, cursive;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    script {
+        scroll-behavior: smooth;
+    }
+
+    i {
+        color: rgb(177, 75, 81);
+        padding: 10px;
+    }
+
+    i,
+    li {
+        justify-content: none;
+    }
+
+    .img {
+        float: left;
+        padding: 10px;
+        border: thin solid;
+        background-color: rgb(177, 75, 81);
+        margin: 0px 10px 0;
+
+    }
+
+    h2 {
+        color: rgb(177, 75, 81);
+        text-align: center;
+        font-size: 25px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+</style>
 
 <head>
+
+    <link rel="shortcut icon" href="ket (2).jpg">
 
     <title>Blog pessoal</title>
     <link rel="stylesheet" type="text/css" href="blog.css" media="screen" />
     <meta chasrset="UTF-8">
-    
+
     <script src="https://kit.fontawesome.com/d07912339e.js" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
 
     <script>
-		onload = () =>{
-			$(function () {
-			$('a[href*="#"]:not([href="#"])').click(function () {
+        onload = () => {
+            $(function () {
+                $('a[href*="#"]:not([href="#"])').click(function () {
 
-				var target = $(this.hash);
+                    var target = $(this.hash);
 
-				if (target.length) {
-					$('html, body').animate({ scrollTop: target.offset().top }, 1000);
-					return false;
-				}
+                    if (target.length) {
+                        $('html, body').animate({ scrollTop: target.offset().top }, 1000);
+                        return false;
+                    }
 
-			});
-		});
-		}
+                });
+            });
+        }
     </script>
-    
+
 </head>
 
 <body>
-    <header class = "header">
-        <a >Blog da Raíssa<i class="fas fa-comment-dots"></i></a>
+    <header class="header">
+        <a>Blog da Raíssa<i class="fas fa-comment-dots"></i></a>
         <nav>
-            <ul class = "menu">
-                </i><li><a href="#apresent" class="scrollSuave"><i class="fas fa-child"></i>Apresentação</a></li>
-                </i><li><a href="#chal" class="scrollSuave"><i class="fas fa-trophy"></i>Desafio 1</a></li>
-                </i><li><a href="#products" class="scrollSuave"><i class="fas fa-gamepad"></i>Produtos desenvolvidos</a></li>
-                </i><li><a href="#contact" class="scrollSuave"><i class="fas fa-address-book"></i>Contatos</a></li>
+            <ul class="menu">
+                </i>
+                <li><a href="#apresent" class="scrollSuave"><i class="fas fa-child"></i>Apresentação</a></li>
+                </i>
+                <li><a href="#chal" class="scrollSuave"><i class="fas fa-trophy"></i>Desafio 1</a></li>
+                </i>
+                <li><a href="#products" class="scrollSuave"><i class="fas fa-gamepad"></i>Produtos desenvolvidos</a>
+                </li>
+                </i>
+                <li><a href="#contact" class="scrollSuave"><i class="fas fa-address-book"></i>Contatos</a></li>
             </ul>
         </nav>
 
     </header>
 
-    <div class="container"  text-align="justify">
+    <div class="container" text-align="justify">
         <div class="título">
 
-            <p >
-                <br><a id="apresent"></a>
+            <p><a id="apresent"></a>
                 <br>
                 <br>
                 <br>
-                
-                </a><h1>Apresentação</h1>
-                <img class="img" src="eueu.PNG" width=200 height=200>Olá! Meu nome é Raíssa Gonçalves Lopes Carvalho e esse é meu blog :). Seja bem vindo(a) e espero que você se divirta por aqui! Sou de Belo Horizonte - MG, acabei de completar 18 anos e, felizmente, ingressei para a vida acadêmica! Estou estudando na  Pontifícia Universidade Católica<a target="_blank" href="http://portal.pucminas.br/main/">(PUC-MG)</a>, campus Coração Eucarístico e cursando Ciência da Computação.
-                <br >Meu ensino médio, e a grande parte da minha vida escolar, estudei no Coleguium Rede de Ensino, uma escola muito atenciosa com os alunos e extremamente produtiva( sinto até um pouco de falta ;-; ). Como acabei de ingressar na faculdade, minha formação e conhecimento ainda estão escassos, porém estou no caminho certo para me tornar uma grande cientista e realizar diversas pesquisas. Admito que antes de entrar na faculdade fiquei com um pouco de receio, já que era tudo muito novo pra mim, porém fui muito bem recebida por todos e esse receio passou até bem rápido.
-                <br > Primeiramente, gostaria de agradecer meu amigo João Gabriel por sempre me apoiar nas minhas escolhas. E também agradecer meu primo Lucas<a id="chal"></a> Porto por me indicar o curso, me apoiar e me ajudar bastante kkkk. Fico feliz em dizer que gostei bastante do curso e não me arrependo da minha escolha, estou apredendo muitas coisas novas, fazendo muitas amizades e até fazendo jogos!
-            </p>
-            <p >
-                </a><h1>Desafio 1</h1>
-                Todos sabemos que a faculdade é totalmente diferente das escolas, e, pra mim, começou com a quantidade de trabalhos. Um dos meus primeiros trabalhos na faculdade foi fazer um desafio proposto pelo meu professor. Os alunos deveriam ver um <a target="_blank" href="https://www.youtube.com/watch?v=984XBKPo-k4">vídeo</a> motivacional do Will Smith e, a partir dele, escrever um texto pequeno sobre os principais assuntos apresentados nele. Além disso, inserir no texto alguns links(vídeos, artigos, músicas,...) que me lembraram o vídeo.E esse foi meu texto : <br>
-                <br>"O <a target="_blank" href="https://www.youtube.com/watch?v=984XBKPo-k4">vídeo</a> do <a target="_blank" href="https://pt.wikipedia.org/wiki/Will_Smith">Will Smith</a>, que foi recomendado, apresenta diversas ideias motivacionais
-                sensacionais e para diferentes desafios que a vida nos proporciona. Ao longo do vídeo,
-                percebemos Will utilizando diversos problemas de sua vida que foram resolvidos da melhor
-                maneira possível e que se transformaram em exemplos excelentes de superação. Um
-                exemplo vindo da sua carreira, foi ao fazer “Um Maluco no Pedaço” em sua juventude,
-                época onde o ator iniciou sua carreira no teatro e percebe-se uma grande evolução ao
-                decorrer da série, se tornando um grande ator.
-                <br>Logo no início do vídeo, vemos Will discutir sobre como a grandiosidade não é algo tão
-                relevante, e sim algo que todos temos. Além de comentar sobre a complexidade, que, para
-                muitos, é algo que tem que fazer parte das nossas vidas e sem ela, alguma coisa está errada.
-                Ao ver essa parte do vídeo, veio me à cabeça o filme Frozen, onde Elsa passa por diversas
-                dificuldades sobre sua aceitação, e entende que ela não é tão grande como os outros diziam
-                e que as situações em sua vida não eram tão complexas. E cabe citar a música <a target="_blank" href=" https://www.youtube.com/watch?v=L0MK7qz13bU ">‘Let it go ’</a>,
-                que mostra quão feliz ela está sendo ela mesma.
-                <br>Pesquisando sobre <a target="_blank" href="https://www.ted.com/talks/elizabeth_gilbert_success_failure_and_the_drive_to_keep_creating?language=pt">TED Talks</a> motivacionais, achei um vídeo da escritora <a target="_blank" href="https://pt.wikipedia.org/wiki/Elizabeth_Gilbert">Elizabeth Gilbert</a>,
-                que conta, sobre o seu sonho de ser escritora e as dificuldades que passou atá achar a “casa”
-                dela, assim como é citado no TED. O vídeo me lembrou do minuto 08:00 até o 08:40 do
-                vídeo do Will, que diz que se sonharmos, visualizarmos e nos empenharmos, nós teremos
-                confiança para realizá-lo.
-                <br>Na época escolar, em uma matéria, assistimos em sala o <a target="_blank" href="https://www.ted.com/talks/erez_yoeli_how_to_motivate_people_to_do_good_for_others#t-693785
-                ">Ted Talk</a> de <a target="_blank" href="http://erezyoeli.com/">Erez Yoeli</a>, que se trata
-                da necessidade de como motivar os outros à fazer o bem. Nessa ideia, o momento 05:07 ao
-                05:27 do vídeo do Will, me remeteu ao TED de Erez, que mostra as motivações das pessoas
-                de fazerem o bem.
-                O conjunto da obra Steven Universe também representa muito bem questões motivacionais.
-                <br>A série mostra como Steven lida com as adversidades que acontecem ao longo dos
-                episodios. A música <a target="_blank" href=" https://www.youtube.com/watch?v=SFqE8Ny-HOo ">“Change”</a>, apresentada na luta final do filme, mostra a forma que Steven
-                usa para “lutar” contra seu adversário e como você pode realizar as coisas de jeitos
-                melhores.
-                <br>Para finalizar, ao longo do vídeo, mesmo não encontrando partes para citar essas músicas, o
-                vídeo me lembrou de duas músicas que tratam do bullying, a música <a target="_blank" href="https://www.letras.mus.br/sia/1944370/traducao.html ">“Titanium”</a> da cantora
-                Sia, e da dificuldade de ser uma mãe solteira, a música <a target="_blank" href="https://www.letras.mus.br/clean-bandit/rockabye/ ">“Rockabye”</a>, da cantora Clean Bandit.
-                Em suas letras vemos as grandes motivações para não deixar se levar por insultos e que,
-                você está certo por lutar pelo o que você<a id="products"></a> ama."<br>
-                <br>Na época que fiz, gostei muito desse texto. Consegui aprender bastante a partir dos Ted Talks que eu vi, e relembrar músicas lindas e motivacionais que eu já havia esquecido.
-                
-            </p>
-            <p >
-                </a><h1>Produtos desenvolvidos</h1>
-                Atualmente, estamos no período de quarentena devido ao vírus Covid-19, ou seja, temos que permanecer, o máximo possível, em nossas casas. Entretanto, como todos dizem, quarentena não é férias, e por isso estou aqui hoje. Nessas últimas semanas venho trabalhando em um trabalho que meu professor Carlos Augusto, professor da matéria LIP(Laboratório de Iniciação á programação), nos passou. Fazer um jogo! Admito que achei que seria mais fácil do que realmente foi, porém me diverti bastante e aprendi a programar no <a target="_blank" href="https://scratch.mit.edu/">Scratch</a>, um programa criado pela MIT que auxilia a aprendizagem de uma maneira super criativa e até recomendo á todos darem uma olhadinha.  
-            </p>
-    
-            <p >
-                <h2>Scratch</h2>
-                Agora, vamos falar sobre meu novo jogo :). Como disse anteriormente, o trabalho que meu professor havia nos passado envolvia a      criação de um jogo e além disso, a adição de alguns atores especiais nele. Primeiramente, um ator relacionado à tradução    entre   idiomas, depois, um relacionado à divulgação do que é a cidadania e de quem é o cidadão outro relacionado à divulgação    do que é a    ciência e de quem é o cientista e, por último, um relacionado à divulgaçãdo que é a ciência da computação e de     quem é o cientista    da computação.
-                <br> Isso tudo faz parte de um projeto de pesquisa extensionista humanitária, que, além de divulgar nossos jogos, devemos vendê-lo  para no mínimo 5 pessoas pelo preço unitário de R$1,00. O projeto se encontra nos contextos do aprendizado da lógica    de  programação, da divulgação da Ciência e da divulgação da Ciência da Computação para públicos de crianças, adolescentes,    adultos e    idosos. Então, caso você leitor se interesse, pode me contatar :).
-            </p>    
-            <p >
-                Finalmente, apresento-lhes o jogo que me custou várias horas e esforço(Lembre-se de aumentar o som): 
                 <br>
-                <br><iframe class="scratch" src="https://scratch.mit.edu/projects/371033194/embed" allowtransparency="true" width="685"         height="602" frameborder="0" scrolling="no" allowfullscreen></iframe>
-                <br>Segue o link do jogo na página original do scratch, só acessar:<a href= "https://scratch.mit.edu/projects/371033194/">(Clique   aqui pra acessar o jogo).</a>
+
+                </a>
+            <h1>Apresentação</h1>
+            <img class="img" src="eueu.PNG" width=200 height=200>Olá! Meu nome é Raíssa Gonçalves Lopes Carvalho e esse
+            é meu blog :). Seja bem vindo(a) e espero que você se divirta por aqui! Sou de Belo Horizonte - MG, acabei
+            de completar 18 anos e, felizmente, ingressei para a vida acadêmica! Estou estudando na Pontifícia
+            Universidade Católica<a target="_blank" href="http://portal.pucminas.br/main/">(PUC-MG)</a>, campus Coração
+            Eucarístico e cursando Ciência da Computação.
+            <br>Meu ensino médio, e a grande parte da minha vida escolar, estudei no Coleguium Rede de Ensino, uma
+            escola muito atenciosa com os alunos e extremamente produtiva( sinto até um pouco de falta ;-; ). Como
+            acabei de ingressar na faculdade, minha formação e conhecimento ainda estão escassos, porém estou no caminho
+            certo para me tornar uma grande cientista e realizar diversas pesquisas. Admito que antes de entrar na
+            faculdade fiquei com um pouco de receio, já que era tudo muito novo pra mim, porém fui muito bem recebida
+            por todos e esse receio passou até bem rápido.<a id="chal"></a>
+            <br> Primeiramente, gostaria de agradecer meu amigo João Gabriel por sempre me apoiar nas minhas escolhas. E
+            também agradecer meu primo Lucas Porto por me indicar o curso, me apoiar e me ajudar bastante kkkk. Fico
+            feliz em dizer que gostei bastante do curso e não me arrependo da minha escolha, estou apredendo muitas
+            coisas novas, fazendo muitas amizades e até fazendo jogos!
             </p>
             <p>
-                Depois de realizar a versão individual do jogo, agora faremos um novo, só que em grupo e multiplayer! Primeiramente, o nosso professor nos explicou o objetivo desse trabalho. Assim como no anterior, teriamos que adicionar alguns atores especiais, um ator relacionado à tradução entre idiomas, outro relacionado à divulgação de um assunto de alguma ciência e relacionado à divulgação de um cientista vinculado ao assunto escolhido, e por último um ator relacionado à divulgação de um assunto da Ciência da Computação e um relacionado à divulgação de um Cientista da Computação.<br>
-                Após entender nosso objetivo, chegamos na hora de dividir os grupos, combinamos de fazer eu, <a target="_blank" href="https://miojolu.tumblr.com/">Luiza Silva</a> e <a target="_blank" href="https://bloodkyle.tumblr.com/">Camila Melo</a>, já que já somos amigas :). Depois de saber nossos objetivos e de dividir de grupos, resolvemos juntar nossas ideias e começar o jogo. E, finalmente, depois de muita luta, chegamos em um resultado que me deixou muito feliz .u.!<br>
-                <a target="_blank" href="https://ra-lopess.github.io/SWBlog/">Science War</a> é a nossa nova criação, um jogo de luta multiplayer com oito cientistas famosos, e que agora estão em um conflito de força e conhecimento. Chame seus amigos e venha demonstrar as suas habilidades em jogos e ciência para o rumo da vitória! Caso queira acessar o jogo diretamente no Scratch, é so clicar <a target="_blank" href="https://scratch.mit.edu/projects/399027878/">aqui</a> e você será redirecionado á página.
+                </a>
+            <h1>Desafio 1</h1>
+            Todos sabemos que a faculdade é totalmente diferente das escolas, e, pra mim, começou com a quantidade de
+            trabalhos. Um dos meus primeiros trabalhos na faculdade foi fazer um desafio proposto pelo meu professor. Os
+            alunos deveriam ver um <a target="_blank" href="https://www.youtube.com/watch?v=984XBKPo-k4">vídeo</a>
+            motivacional do Will Smith e, a partir dele, escrever um texto pequeno sobre os principais assuntos
+            apresentados nele. Além disso, inserir no texto alguns links(vídeos, artigos, músicas,...) que me lembraram
+            o vídeo.E esse foi meu texto : <br>
+            <br>"O <a target="_blank" href="https://www.youtube.com/watch?v=984XBKPo-k4">vídeo</a> do <a target="_blank"
+                href="https://pt.wikipedia.org/wiki/Will_Smith">Will Smith</a>, que foi recomendado, apresenta diversas
+            ideias motivacionais
+            sensacionais e para diferentes desafios que a vida nos proporciona. Ao longo do vídeo,
+            percebemos Will utilizando diversos problemas de sua vida que foram resolvidos da melhor
+            maneira possível e que se transformaram em exemplos excelentes de superação. Um
+            exemplo vindo da sua carreira, foi ao fazer “Um Maluco no Pedaço” em sua juventude,
+            época onde o ator iniciou sua carreira no teatro e percebe-se uma grande evolução ao
+            decorrer da série, se tornando um grande ator.
+            <br>Logo no início do vídeo, vemos Will discutir sobre como a grandiosidade não é algo tão
+            relevante, e sim algo que todos temos. Além de comentar sobre a complexidade, que, para
+            muitos, é algo que tem que fazer parte das nossas vidas e sem ela, alguma coisa está errada.
+            Ao ver essa parte do vídeo, veio me à cabeça o filme Frozen, onde Elsa passa por diversas
+            dificuldades sobre sua aceitação, e entende que ela não é tão grande como os outros diziam
+            e que as situações em sua vida não eram tão complexas. E cabe citar a música <a target="_blank"
+                href=" https://www.youtube.com/watch?v=L0MK7qz13bU ">‘Let it go ’</a>,
+            que mostra quão feliz ela está sendo ela mesma.
+            <br>Pesquisando sobre <a target="_blank"
+                href="https://www.ted.com/talks/elizabeth_gilbert_success_failure_and_the_drive_to_keep_creating?language=pt">TED
+                Talks</a> motivacionais, achei um vídeo da escritora <a target="_blank"
+                href="https://pt.wikipedia.org/wiki/Elizabeth_Gilbert">Elizabeth Gilbert</a>,
+            que conta, sobre o seu sonho de ser escritora e as dificuldades que passou atá achar a “casa”
+            dela, assim como é citado no TED. O vídeo me lembrou do minuto 08:00 até o 08:40 do
+            vídeo do Will, que diz que se sonharmos, visualizarmos e nos empenharmos, nós teremos
+            confiança para realizá-lo.
+            <br>Na época escolar, em uma matéria, assistimos em sala o <a target="_blank" href="https://www.ted.com/talks/erez_yoeli_how_to_motivate_people_to_do_good_for_others#t-693785
+                ">Ted Talk</a> de <a target="_blank" href="http://erezyoeli.com/">Erez Yoeli</a>, que se trata
+            da necessidade de como motivar os outros à fazer o bem. Nessa ideia, o momento 05:07 ao
+            05:27 do vídeo do Will, me remeteu ao TED de Erez, que mostra as motivações das pessoas
+            de fazerem o bem.
+            O conjunto da obra Steven Universe também representa muito bem questões motivacionais.
+            <br>A série mostra como Steven lida com as adversidades que acontecem ao longo dos
+            episodios. A música <a target="_blank" href=" https://www.youtube.com/watch?v=SFqE8Ny-HOo ">“Change”</a>,
+            apresentada na luta final do filme, mostra a forma que Steven
+            usa para “lutar” contra seu adversário e como você pode realizar as coisas de jeitos
+            melhores.
+            <br>Para finalizar, ao longo do vídeo, mesmo não encontrando partes para citar essas músicas, o
+            vídeo me lembrou de duas músicas que tratam do bullying, a música <a target="_blank"
+                href="https://www.letras.mus.br/sia/1944370/traducao.html ">“Titanium”</a> da cantora
+            Sia, e da dificuldade de ser uma mãe solteira, a música <a target="_blank"
+                href="https://www.letras.mus.br/clean-bandit/rockabye/ ">“Rockabye”</a>, da cantora Clean Bandit.
+            Em suas letras vemos as grandes motivações para não deixar se levar por insultos e que,
+            você está certo por lutar pelo o que você<a id="products"></a> ama."<br>
+            <br>Na época que fiz, gostei muito desse texto. Consegui aprender bastante a partir dos Ted Talks que eu vi,
+            e relembrar músicas lindas e motivacionais que eu já havia esquecido.
+
             </p>
-            <p >
-                <h2>StarLogo Nova</h2>
-                Além desse lindo jogo que eu mostrei anteriormente, estou trabalhando em um novo projeto. Alguns dias atrás meu professor nos apresentou uma nova plataforma chamada <a target="_blank" href="https://www.slnova.org/">StarLogo Nova</a>, feita também pela MIT, que simula diversas situações manipuladas por estudantes. E então, dentro dessa plataforma, criei meu novo projeto relacionado á morte de tartarugas por causa de resíduos jogados no mar. Achei a plataforma muito interessante e pretendo me divertir mais um pouco com ela, o programa tem várias possibilidades de simulação e com alguns estudos, qualquer um pode simular até a disseminação de doenças!<br>Agora, apresento á vocês minha simulação:<br><br><iframe class="slnova" src="https://www.slnova.org/ra_lopess/projects/749957/" allowtransparency="true" width="1000"
-                height="1000" frameborder="0" scrolling="yes" allowfullscreen></iframe>
-                <br>Segue o link da simulação na página original do StarLogo Nova, só acessar:<a target="_blank" href= "https://www.slnova.org/ra_lopess/projects/749957/">(Clique   aqui pra acessar a simulação).</a>
+            <p>
+                </a>
+            <h1>Produtos desenvolvidos</h1>
+            Atualmente, estamos no período de quarentena devido ao vírus Covid-19, ou seja, temos que permanecer, o
+            máximo possível, em nossas casas. Entretanto, como todos dizem, quarentena não é férias, e por isso estou
+            aqui hoje. Nessas últimas semanas venho trabalhando em um trabalho que meu professor Carlos Augusto,
+            professor da matéria LIP(Laboratório de Iniciação á programação), nos passou. Fazer um jogo! Admito que
+            achei que seria mais fácil do que realmente foi, porém me diverti bastante e aprendi a programar no <a
+                target="_blank" href="https://scratch.mit.edu/">Scratch</a>, um programa criado pela MIT que auxilia a
+            aprendizagem de uma maneira super criativa e até recomendo á todos darem uma olhadinha.
             </p>
-            <p >
-                <a id="contact"></a><h1>Contatos</h1>
-                E agora, chegamos ao final. Queria dizer que essa expêriencia foi fantástica e me diverti muito ao longo dessas semanas. Caso você queira me contatar é só mandar um e-mail para raissaglc@gmail.com e prometo não demorar responder! E caso você queira dar uma olhadinha no meu currículo é só acessar <a target="_blank" href="http://lattes.cnpq.br/4252817742927675">Lattes</a>, a plataforma que é um sistema de currículos virtual.  
+
+            <p>
+            <h2>Scratch</h2>
+            Agora, vamos falar sobre meu novo jogo :). Como disse anteriormente, o trabalho que meu professor havia nos
+            passado envolvia a criação de um jogo e além disso, a adição de alguns atores especiais nele. Primeiramente,
+            um ator relacionado à tradução entre idiomas, depois, um relacionado à divulgação do que é a cidadania e de
+            quem é o cidadão outro relacionado à divulgação do que é a ciência e de quem é o cientista e, por último, um
+            relacionado à divulgaçãdo que é a ciência da computação e de quem é o cientista da computação.
+            <br> Isso tudo faz parte de um projeto de pesquisa extensionista humanitária, que, além de divulgar nossos
+            jogos, devemos vendê-lo para no mínimo 5 pessoas pelo preço unitário de R$1,00. O projeto se encontra nos
+            contextos do aprendizado da lógica de programação, da divulgação da Ciência e da divulgação da Ciência da
+            Computação para públicos de crianças, adolescentes, adultos e idosos. Então, caso você leitor se interesse,
+            pode me contatar :).
             </p>
-            <p >
+            <p>
+                Finalmente, apresento-lhes o jogo que me custou várias horas e esforço(Lembre-se de aumentar o som):
+                <br>
+                <br><iframe class="scratch" src="https://scratch.mit.edu/projects/371033194/embed"
+                    allowtransparency="true" width="685" height="602" frameborder="0" scrolling="no"
+                    allowfullscreen></iframe>
+                <br>Segue o link do jogo na página original do scratch, só acessar:<a
+                    href="https://scratch.mit.edu/projects/371033194/">(Clique aqui pra acessar o jogo).</a>
+            </p>
+            <p>
+                Depois de realizar a versão individual do jogo, agora faremos um novo, só que em grupo e multiplayer!
+                Primeiramente, o nosso professor nos explicou o objetivo desse trabalho. Assim como no anterior,
+                teriamos que adicionar alguns atores especiais, um ator relacionado à tradução entre idiomas, outro
+                relacionado à divulgação de um assunto de alguma ciência e relacionado à divulgação de um cientista
+                vinculado ao assunto escolhido, e por último um ator relacionado à divulgação de um assunto da Ciência
+                da Computação e um relacionado à divulgação de um Cientista da Computação.<br>
+                Após entender nosso objetivo, chegamos na hora de dividir os grupos, combinamos de fazer eu, <a
+                    target="_blank" href="https://miojolu.tumblr.com/">Luiza Silva</a> e <a target="_blank"
+                    href="https://bloodkyle.tumblr.com/">Camila Melo</a>, já que já somos amigas :). Depois de saber
+                nossos objetivos e de dividir de grupos, resolvemos juntar nossas ideias e começar o jogo. E,
+                finalmente, depois de muita luta, chegamos em um resultado que me deixou muito feliz .u.!<br>
+                <a target="_blank" href="https://ra-lopess.github.io/SWBlog/">Science War</a> é a nossa nova criação, um
+                jogo de luta multiplayer com oito cientistas famosos, e que agora estão em um conflito de força e
+                conhecimento. Chame seus amigos e venha demonstrar as suas habilidades em jogos e ciência para o rumo da
+                vitória! Caso queira acessar o jogo diretamente no Scratch, é so clicar <a target="_blank"
+                    href="https://scratch.mit.edu/projects/399027878/">aqui</a> e você será redirecionado á página.
+            </p>
+            <p>
+            <h2>StarLogo Nova</h2>
+            Além desse lindo jogo que eu mostrei anteriormente, estou trabalhando em um novo projeto. Alguns dias atrás
+            meu professor nos apresentou uma nova plataforma chamada <a target="_blank"
+                href="https://www.slnova.org/">StarLogo Nova</a>, feita também pela MIT, que simula diversas situações
+            manipuladas por estudantes. E então, dentro dessa plataforma, criei meu novo projeto relacionado á morte de
+            tartarugas por causa de resíduos jogados no mar. Achei a plataforma muito interessante e pretendo me
+            divertir mais um pouco com ela, o programa tem várias possibilidades de simulação e com alguns estudos,
+            qualquer um pode simular até a disseminação de doenças!<br>Agora, apresento á vocês minha
+            simulação:<br><br><iframe class="slnova" src="https://www.slnova.org/ra_lopess/projects/749957/"
+                allowtransparency="true" width="1000" height="1000" frameborder="0" scrolling="yes"
+                allowfullscreen></iframe>
+            <br>Segue o link da simulação na página original do StarLogo Nova, só acessar:<a target="_blank"
+                href="https://www.slnova.org/ra_lopess/projects/749957/">(Clique aqui pra acessar a simulação).</a>
+            </p>
+            <p>
+                <a id="contact"></a>
+            <h1>Contatos</h1>
+            E agora, chegamos ao final. Queria dizer que essa expêriencia foi fantástica e me diverti muito ao longo
+            dessas semanas. Caso você queira me contatar é só mandar um e-mail para raissaglc@gmail.com e prometo não
+            demorar responder! E caso você queira dar uma olhadinha no meu currículo é só acessar <a target="_blank"
+                href="http://lattes.cnpq.br/4252817742927675">Lattes</a>, a plataforma que é um sistema de currículos
+            virtual.
+            </p>
+            <p>
                 Agradecimentos finais às pessoas que puderam contribuir com meu jogo:
                 <br><i class="fas fa-at"></i>Maria Aparecida, cidagol@yahoo.com.br;
                 <br><i class="fas fa-at"></i>João Gabriel Loyola, joaocastello.loyola@gmail.com;
@@ -264,14 +348,21 @@ h2
         </div>
 
     </div>
-    
-    <footer class = "footer">
+
+    <footer class="footer">
         Copyright 2020. Todos os direitos reservados á Raíssa Lopes.
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
 
 </body>
+
 </html>
