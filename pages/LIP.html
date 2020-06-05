@@ -7,6 +7,23 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+<script src="https://kit.fontawesome.com/d07912339e.js" crossorigin="anonymous"></script>
+<script>
+  onload = () => {
+    $(function () {
+      $('a[href*="#"]:not([href="#"])').click(function () {
+
+        var target = $(this.hash);
+
+        if (target.length) {
+          $('html, body').animate({ scrollTop: target.offset().top }, 1000);
+          return false;
+        }
+
+      });
+    });
+  }
+</script>
 </head>
 <body id="top">
   <div class="wrapper row1" style="background-color: rgb(247, 211, 232);">
@@ -17,7 +34,7 @@
       </div>
       <nav id="mainav" class="fl_right">
         <ul class="clear">
-          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="#">Sobre mim</a></li>
           <li class="active"><a href="#">Matérias</a></li>
           <li><a href="#">Ajuda</a></li>
@@ -26,8 +43,12 @@
       <!-- ################################################################################################ -->
     </header>
   </div>
-<div class="wrapper row3" style="background-color: rgb(202, 202, 202);">
+<div class="wrapper row3 uau" style="background-color: rgb(202, 202, 202);">
   <main class="hoc container clear"> 
+    <h1 class="meio">Laboratório De Iniciação À Programação</h1>
+    <p class="uau">
+      LIP é uma matéria dada pelo professor <strong>Carlos Augusto Paiva da Silva Martins</strong>, um professor amigo e com uma visão diferente de vários outros. As aulas são sempre animadas e ao longo delas, você é capaz de aprender sobre vários assuntos. Já que ele não aplica provas, temos vários trabalhos. Além desse blog, listei todos explicadamente nos textos abaixo e, caso você queira ir diretamente à um, basta clicar nele: <a class='fufu' href="#des">Desafio 1</a>, <a href="#vif" class='fufu'>Scratch VIF</a>, <a href="#vef" class='fufu'>Scratch VEF</a>, <a href="#sln" class='fufu'>StarLogo Nova</a>.
+    </p><a id="des"></a>
     
     <h1 class="meio">Desafio 1</h1>
             Todos sabemos que a faculdade é totalmente diferente das escolas, e, pra mim, começou com a quantidade de
@@ -93,7 +114,7 @@
             achei que seria mais fácil do que realmente foi, porém me diverti bastante e aprendi a programar no <a
                 target="_blank" class="link" href="https://scratch.mit.edu/">Scratch</a>, um programa criado pela MIT que auxilia a
             aprendizagem de uma maneira super criativa e até recomendo á todos darem uma olhadinha.
-            </p>
+            </p><a id="vif"></a>
 
             <p>
             <h2 class="meio">Scratch</h2>
@@ -116,7 +137,7 @@
                     allowfullscreen></iframe>
                 <br>Segue o link do jogo na página original do scratch, só acessar:<a
                     href="https://scratch.mit.edu/projects/371033194/">(Clique aqui pra acessar o jogo).</a>
-            </p>
+            </p><a id="vef"></a>
             <p>
                 Depois de realizar a versão individual do jogo, agora faremos um novo, só que em grupo e multiplayer!
                 Primeiramente, o nosso professor nos explicou o objetivo desse trabalho. Assim como no anterior,
@@ -134,7 +155,7 @@
                 conhecimento. Chame seus amigos e venha demonstrar as suas habilidades em jogos e ciência para o rumo da
                 vitória! Caso queira acessar o jogo diretamente no Scratch, é so clicar <a target="_blank" class="link"
                     href="https://scratch.mit.edu/projects/399027878/">aqui</a> e você será redirecionado á página.
-            </p>
+            </p><a id="sln"></a>
             <p>
             <h2 class="meio">StarLogo Nova</h2>
             Além desse lindo jogo que eu mostrei anteriormente, estou trabalhando em um novo projeto. Alguns dias atrás
@@ -152,15 +173,9 @@
             </p>
             <p>
                 <a id="contact"></a>
-            <h1 class="meio">Contatos</h1>
-            E agora, chegamos ao final. Queria dizer que essa expêriencia foi fantástica e me diverti muito ao longo
-            dessas semanas. Caso você queira me contatar é só mandar um e-mail para raissaglc@gmail.com e prometo não
-            demorar responder! E caso você queira dar uma olhadinha no meu currículo é só acessar <a target="_blank" class="link"
-                href="http://lattes.cnpq.br/4252817742927675">Lattes</a>, a plataforma que é um sistema de currículos
-            virtual.
-            </p>
+            <h1 class="meio">Agradecimentos</h1>
             <p>
-                Agradecimentos finais às pessoas que puderam contribuir com meu jogo:
+                Agradecimentos finais às pessoas que puderam contribuir com meu jogo:<br>
                 <br>Maria Aparecida, cidagol@yahoo.com.br;
                 <br>João Gabriel Loyola, joaocastello.loyola@gmail.com;
                 <br>Raimen Antônio, raimen_lopes@hotmail.com;

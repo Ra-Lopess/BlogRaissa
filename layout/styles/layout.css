@@ -86,6 +86,10 @@ File: Layout CSS
 	color: black;
 }
 
+.fufu{
+	color: rgb(177, 75, 81) !important;
+}
+
 .link{
 	color: rgb(177, 75, 81);
 }
